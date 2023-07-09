@@ -20,7 +20,7 @@ const Click = () => {
           <div class="flex h-full items-center rounded-lg bg-primary p-6 text-center text-gray-400 lg:pl-12 lg:text-left">
             <div class="lg:pl-12">
               <h2 class="mb-6 text-3xl font-bold">
-                Need help with API Develoment?
+                Need help with API Development?
               </h2>
               <p class="mb-6 pb-2 lg:pb-0">
                threenine.co.uk can help you with your API Development. We have experience in building APIs for a range
