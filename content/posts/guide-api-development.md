@@ -200,3 +200,66 @@ a true API.  This is not necessarily a bad thing, but it is important to underst
 limitations of this pattern, which more often than not is not the best solution to the problem, and also not the original
 business intention, requirement and need of the API.
 
+### Why Build APIs?
+APIs are a way for software to communicate with other software, enabling applications to share data and functionality 
+with other applications. APIs are also a great approach for enabling the synchronization of data between applications, 
+and for enabling the integration of data between applications.
+
+APis don't always have to be externally facing and they can be used internally within an organization to enable the
+integration of data between internal applications.  This is often the case when an organization has a number of legacy applications
+that need to be integrated with a new application, or when an organization has a number of applications that need to be
+integrated with a new application. This is also the case when an organization has a number of applications that need to
+be integrated to create new applications that depend on legacy data.
+
+The
+
+**Enhance Security**
+
+APIs not only provide the interface but also control the access, the control of data and information. APIs are 
+programmed in such a way that only authorized and authentic users can perform certain functions and access the data. 
+A well-designed and developed API acts as a shield against all types of attacks and breaches.
+
+**Streamline architectures**
+
+With good APIs, you can program your back-end code and develop the app without any worries and independently from the 
+user interface. APIs allow you to work on algorithms as per your brand’s goal and let you launch the app on both the 
+mobile platforms iOS and Android and web. You can even rewrite and redesign your app’s UI using a newer framework 
+without tampering with the actual functioning of the application.
+
+**Improved testability**
+
+APIs don’t only make developing easy but also make the testing of the app easy before it gets deployed or launched 
+for the public. It also helps to test the UI before the app actually goes into the development phase because once the 
+back-end gets involved testing the UI is the biggest headache, luckily APIs save you from that. And there is also an 
+automated API testing feature.
+
+**Scalability**
+
+Instead of developing big unitary applications that will be hard to document or test, you can build complex and yet 
+fun applications through all the independent modules available or modules of other applications via APIs.
+
+**Better integration**
+
+Most businesses rely on variant sets of software modules and applications to make their one application work. Hence, 
+integrating all the modules together is the best way to let the application function without any delay, and what’s 
+better than the APIs for the integration. Big enterprises like Google, Apple have many of their APIs public but it 
+need not to be the case with you if you’re developing a customized application. A well-designed and developed API 
+obviously lifts the performance of your application up and so can help your business to boom.
+
+**Easy to use new technologies**
+
+APIs let you internally connect with all the new and latest technologies without creating much fuss about rewriting 
+the codes and connections.
+
+**Better experience**
+
+APIs help enhance application functionalities which in turn provides a better user experience.
+
+**Faster development**
+
+APIs spare you from the headache of designing and developing everything from scratch, which means faster and reliable 
+development. You can simply integrate all the important features and add data from other applications.
+One of the most important positive effect APIs has on developers and programmers that save the extra time they don’t
+need to spend the extra time programming all the functions and services they can access from other applications via 
+APIs, this saves time and hence, the fast development and faster deployment and more revenue.
+
