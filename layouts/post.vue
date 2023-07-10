@@ -2,6 +2,9 @@
 </script>
 
 <template>
+  <div class="relative flex min-h-screen flex-col">
+    <slot name="header" />
+    <div class="flex min-h-0 flex-1 overflow-hidden">
   <!-- 3 column wrapper -->
   <div class="mx-auto w-full max-w-7xl grow lg:flex xl:px-2">
     <!-- Left sidebar & main wrapper -->
@@ -17,6 +20,8 @@
 
     <div class="border-t border-gray-200 px-4 py-6 sm:px-6 lg:w-96 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6">
       <slot name="rightColumn" />
+    </div>
+  </div>
     </div>
   </div>
 </template>

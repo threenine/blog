@@ -22,7 +22,7 @@ useSeoMeta({
 <template>
   <nuxt-layout name="post">
     <template #header>
-      <post-header :post="post" />
+      <blog-header :post="post" />
     </template>
     <template #mainContent >
 

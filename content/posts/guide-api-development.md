@@ -1,5 +1,5 @@
 ---
-title: A Complete guide to API Development
+title: An introductory guide to API Development
 subtitle: Importance, Terminology, and Best Practices
 description: In this article we will explore how to run a full validating bitcoin node on a Raspberry Pi or old server
 summary: 
@@ -8,7 +8,7 @@ category:
 author:
   name: Gary Woodfine
   github: garywoodfine
-  imageUrl: garywoodfine.png
+  imageUrl: /garywoodfine.png
   role: Founder & CTO
 featureImage:
   url: /images/api-development.jpg
