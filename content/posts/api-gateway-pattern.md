@@ -1,7 +1,7 @@
 ---
 title: API Gateway Pattern
 subtitle: using API gateways for communication between clients and applications
-description: Understand the uses of the API gateway pattern and when to use it in API Development.
+description: Understand the uses of the API gateway pattern and when to use it in API Development to provide a single-entry point for groups of microservices.
 summary: 
 category:
   title: API Development
@@ -22,7 +22,7 @@ is often conceptually linked to [Backend for Frontend (BFF)](https://threenine.b
 because both patterns share a similar objectives, but they are actually two distinct patterns.
 
 
-An API Gateway is a server that is the single entry point into the system. The API Gateway encapsulates the internal 
+An _API Gateway_ is a server that is the single entry point into the system. The API Gateway encapsulates the internal 
 system architecture and provides an API that is tailored to each client. It might have other responsibilities such as authentication, monitoring, load balancing, 
 caching, request shaping and management, and static response handling.
 
