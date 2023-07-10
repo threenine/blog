@@ -1,7 +1,7 @@
 ---
 title: An introductory guide to API Development
-subtitle: Importance, Terminology, and Best Practices
-description: In this article we will explore how to run a full validating bitcoin node on a Raspberry Pi or old server
+subtitle: Overview, Terminology, and Best Practices
+description: threenine.co.uk cover introductory concept, terminologies & technologies related to API development in order to gain a basic understanding.
 summary: 
 category:
   title: API Development
@@ -12,7 +12,7 @@ author:
   role: Founder & CTO
 featureImage:
   url: /images/api-development.jpg
-  title:  How to run a Bitcoin Node
+  title:  API Development
 publishDate: 05 June 2023
 publishDateTime: 2023-06-05:17:30
 ---
