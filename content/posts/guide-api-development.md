@@ -198,9 +198,9 @@ trying to use the API, and it leads to a lot of frustration for the developers w
 The API often ends up being tightly coupled to the implementation of 1 front end application without taking into consideration 
 that the primary objective of an API is to be used by multiple front end applications and number of different services. 
 
-It is in these situations that you'll discover that you have in effect developed a Backend for Frontend (BFF) API, and not
+It is in these situations that you'll discover that you have in effect developed a [Backend for Frontend (BFF)](https://threenine.blog/posts/backend-for-frontend-design-pattern) API, and not
 a true API.  This is not necessarily a bad thing, but it is important to understand the difference between the two, and the
-limitations of this pattern, which more often than not is not the best solution to the problem, and also not the original
+limitations and benefits of this pattern, which more often than not is not the best solution to the problem, and also not the original
 business intention, requirement and need of the API.
 
 ### Why Build APIs?

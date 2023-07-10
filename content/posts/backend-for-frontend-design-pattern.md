@@ -17,7 +17,7 @@ publishDate: 10 June 2023
 publishDateTime: 2023-06-10:17:30
 ---
 
-The backend for frontend (BFF) is a software architecture pattern relevant for microservices & domain-driven design to 
+The _backend for frontend (BFF)_ is a software architecture pattern relevant for microservices & domain-driven design to 
 simplify the communication between the frontend and backend. The pattern was first introduced by [Phil Calcado](https://philcalcado.com/about/)
 and colleagues at SoundCloud in 2011, and has also been discussed further by [Sam Newman](https://samnewman.io/) in his book
 [Building Microservices](https://amzn.to/3D8bFGc) and [Chris Richardson](https://microservices.io/about.html) in his book [Microservices Patterns](https://amzn.to/3JSLZ42).
@@ -39,10 +39,27 @@ is because the traditional approach to accommodating more than one type of UI is
 and add more functionality as required over time to support new types of mobile interaction. 
 
 The BFF is typically tightly coupled to a specific frontend application or client, and will typically be implemented by a
-dedicated team that are responsible for both backend and frontend development, therefor making it easier to implement, maintain and 
+dedicated team that are responsible for both backend and frontend development, therefor making it easier to implement, maintain,
 define and adapt the API contract between the frontend and backend.
 
 We have briefly discussed the [Backends for Frontends pattern](https://www.apitemplatepack.com/docs/introduction/backends-for-frontends-pattern/) 
 in relation to the [API Template Pack](https://www.apitemplatepack.com/) and it is a fairly common pattern that is used in
 within the Enterprise API space.
 
+### Benefits of the Backend for Frontend (BFF) Pattern
+
+* **Separation of concerns:** Your application is easier to maintain when the front-end and back-end applications are disentangled.
+* **Improved security:** The BFF pattern can conceal sensitive information and send the response back to clients.
+* **Shared team responsibility:** As front-end and back-end applications are isolated; several teams may work on different aspects of the application. The front-end team doesn't have to wait till another team has completed the BFF code.
+* **Better security:** You can take advantage of the BFF pattern to hide certain sensitive information while sending the response back to the client. Additionally, this abstraction makes it extremely difficult for intruders, and your sensitive data won't be compromised.
+* **Rapid development:** The BFF pattern encourages having a back-end API for each client and having the front-end development team control the development, thus increasing development velocity.
+* **Request aggregator:** BFF can function as a request aggregator, reducing the chattiness of your client applications by acting as a front-end for downstream services.
+* **Consistent error management:** BFF can play a crucial role in implementing consistent error handling in your application.
+* **Better Autonomy and Agility:** Instead of waiting for the back-end team to build the API, the client development team has complete control, allowing it to be at the forefront of the delivery schedule.
+
+
+### When to use the Backend for Frontend (BFF) Pattern
+
+* The user interfaces need to consume data that requires a lot of aggregation on the back-end code.
+* When teams find themselves incorporating customizations to the general-purpose back-end code to serve multiple interfaces.
+* optimising the back-end code to satisfy the requirements of specific client interfaces.
