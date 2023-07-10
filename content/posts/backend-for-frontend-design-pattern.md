@@ -22,7 +22,7 @@ simplify the communication between the frontend and backend. The pattern was fir
 and colleagues at SoundCloud in 2011, and has also been discussed further by [Sam Newman](https://samnewman.io/) in his book
 [Building Microservices](https://amzn.to/3D8bFGc) and [Chris Richardson](https://microservices.io/about.html) in his book [Microservices Patterns](https://amzn.to/3JSLZ42).
 
-The BFF pattern has also been referred to as the **API Gateway** pattern, but this is not strictly correct. The API Gateway
+The BFF pattern has also been referred to as the [API Gateway pattern](https://threenine.blog/posts/api-gateway-pattern), but this is not strictly correct. The API Gateway
 pattern is a more general pattern that can be used to aggregate multiple backend services into a single API. The BFF pattern
 is a specific type of API Gateway that is used to aggregate multiple backend services into a single API for a specific frontend
 application or client. 
