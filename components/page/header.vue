@@ -33,9 +33,6 @@
             <div class="space-y-2 py-6">
               <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
             </div>
-            <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-            </div>
           </div>
         </div>
       </DialogPanel>
@@ -49,7 +46,7 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Contact', href: '#' },
+  { name: 'Contact', href: 'https://threenine.co.uk/contact' },
 
 ]
 
