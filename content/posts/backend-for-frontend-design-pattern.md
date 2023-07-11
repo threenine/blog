@@ -46,6 +46,9 @@ We have briefly discussed the [Backends for Frontends pattern](https://www.apite
 in relation to the [API Template Pack](https://www.apitemplatepack.com/) and it is a fairly common pattern that is used in
 within the Enterprise API space.
 
+::get-started
+::
+
 ### Benefits of the Backend for Frontend (BFF) Pattern
 
 * **Separation of concerns:** Your application is easier to maintain when the front-end and back-end applications are disentangled.

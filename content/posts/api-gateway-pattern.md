@@ -62,7 +62,9 @@ but the following are the most common features:
   web‑unfriendly protocols that are used internally.
 * **Security** - The API Gateway can provide an extra layer of security by encapsulating the internal system architecture 
   and shielding the internal services from the public-facing API. It can also provide some [monitoring](https://en.wikipedia.org/wiki/Monitoring_(medicine)) of the incoming requests.
-
+  
+* ::get-started
+  ::
 
 ### Benefits of an API Gateway
 
