@@ -38,6 +38,32 @@ It may expose a finer‑grained API for desktop clients to conserve bandwidth. I
 each client. For example, some clients may require only a subset of the data that is available, so the API Gateway
 can retrieve and return only that data.
 
+An API Gateway can offer multiple features. Depending on the product it might offer richer or simpler features, 
+but the following are the most common features:
+
+* **Authentication** - The API Gateway can handle authentication for all incoming requests and pass the request to the 
+  services with a [valid authentication token](https://en.wikipedia.org/wiki/Authentication_token). This can simplify 
+  the development of authentication for all of the microservices. It can also prevent certain types of [Denial of Service (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack) attacks.
+* **Backend** - services only if the request is authenticated. This can simplify the development of authentication for 
+  all of the microservices. It can also prevent certain types of [Denial of Service (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack) attacks.
+* **Load balancing** - The API Gateway can act as a [load balancer](https://en.wikipedia.org/wiki/Load_balancing_(computing)) to evenly distribute requests across the back‑end services.
+* **Caching** - The API Gateway can cache backend responses. This can significantly improve performance metrics.
+* **Monitoring** - The API Gateway can provide monitoring and tracking of requests and responses. It can also do 
+  [application logging](https://en.wikipedia.org/wiki/Application_logging) and tracking.
+* **Request Aggregation** - The API Gateway can aggregate multiple requests into a single request. This can reduce 
+  chattiness and round trips.
+* **Response Aggregation** - The API Gateway can aggregate multiple responses into a single response. This can reduce 
+  chattiness and round trips.
+* **Static Response Handling** - The API Gateway can handle responses for API calls that do not require a back‑end service. 
+  For example, it can return a cached response.
+* **Management** - The API Gateway can provide a set of management functions. For example, it can provide an API 
+  browser that lists available APIs and their operations.
+* **Protocol Translation** - The API Gateway can translate between web protocols such as HTTP and WebSocket and 
+  web‑unfriendly protocols that are used internally.
+* **Security** - The API Gateway can provide an extra layer of security by encapsulating the internal system architecture 
+  and shielding the internal services from the public-facing API. It can also provide some [monitoring](https://en.wikipedia.org/wiki/Monitoring_(medicine)) of the incoming requests.
+
+
 ### Benefits of an API Gateway
 
 A major benefit of using an API Gateway is that it encapsulates the internal structure of the application. Rather than 
