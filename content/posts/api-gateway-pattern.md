@@ -33,6 +33,10 @@ protocols such as HTTP and WebSocket and web‑unfriendly protocols that are use
 
 ### Why use an API Gateway?
 
+The API Gateway can also provide each client with a custom API. It typically exposes a coarse‑grained API for mobile clients.
+It may expose a finer‑grained API for desktop clients to conserve bandwidth. It may provide an API tailored to the needs of
+each client. For example, some clients may require only a subset of the data that is available, so the API Gateway
+can retrieve and return only that data.
 
 ### Benefits of an API Gateway
 
