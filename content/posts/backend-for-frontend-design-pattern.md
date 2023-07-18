@@ -60,7 +60,7 @@ into a single API for web and mobile applications.
 A single BFF can be focused and targeted towards  single User Interface (UI). As a result, it will help keep the codebase
 for the frontends simple and enabling a unified view of data through the BFF.
 
-![](/images/bff-pattern-example.png)
+![Backend for frontend pattern example](/images/bff-pattern-example.png)
 
 In the above example, we have a simple BFF that is used to aggregate data from two backend services. The BFF is used to
 aggregate data from the two backend services and provide a single API for the frontend application to consume.  

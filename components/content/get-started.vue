@@ -2,7 +2,7 @@
 <script setup lang="ts">
 
 const Click = () => {
-  location.href = 'https://threenine.co.uk'
+  location.href = 'https://threenine.co.uk/contact'
 };
 
 </script>
