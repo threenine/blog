@@ -1,6 +1,22 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<div  align="center" style="text-align: center; padding: 20px">
+<a href="https://threenine.co.uk" target="_blank">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/threenine/website/raw/master/images/main-logo-header-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/threenine/website/raw/master/images/main-logo-header-light.png">
+  <img alt="Gary Woodfine - Opinionated Software Developer" src="https://github.com/threenine/website/raw/master/images/main-logo-header-dark.png" align="center" />
+</picture>
+</a>
+</div>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e99ccded-b777-43b6-a089-679845516b9f/deploy-status)](https://app.netlify.com/sites/clinquant-nasturtium-efbf8c/deploys)
+
+## [threenine.blog](https://threenine.blog) 
+
+This repository contains all the code for the blog microsite for [threenine.co.uk](https://threenine.co.uk) and is built 
+using [Nuxt 3](https://v3.nuxtjs.org) and [Netlify CMS](https://www.netlifycms.org/). 
+
+This repository is designed to serve as an example of how to build a blog using Nuxt 3 and Netlify CMS. 
 
 ## Setup
 
