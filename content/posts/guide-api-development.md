@@ -27,7 +27,7 @@ to ensure your API development project have better chances of success.
 
 ### What is an API?
 
-We have previously covered [What is an API?](https://threenine.blog/what-is-an-api "What is an API? | threenine.co.uk")
+We have previously covered [What is an API?](https://threenine.blog/posts/what-is-an-api "What is an API? | threenine.co.uk")
 in a previous article, but to recap an API, or _Application Programming Interface_, is a set of defined rules that enable different applications to
 software or app to use features, services or functionality of another app, platform or device to enhance functionality. In short, it’s 
 something that lets apps communicate with each other.
