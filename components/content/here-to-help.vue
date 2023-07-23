@@ -13,7 +13,7 @@
           of clients, from small startups to large multi-national enterprises.</p>
         <p class="mt-6 text-base leading-7 text-gray-300">We can help you with your
           API Development, and adopting the API First strategy. </p>
-        <p class="mt-6 text-base leading-7 text-gray-300"> We are able to provide the expertise whether you need a new API or need to improve an existing one.</p>
+        <p class="mt-6 text-base leading-7 text-gray-300"> We are able to provide the expertise whether you need a new API or improve & enhance an existing one.</p>
         <div class="mt-8">
           <a href="https://threenine.co.uk/services/api-development" class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">API Development Services</a>
         </div>
