@@ -126,3 +126,51 @@ allow or deny this request. Many web browsers and mobile operating systems, like
 built-in when APIs request access to applications and their data. When the app must access files through an API, file 
 systems such as windows, Mac and Linux use permissions for that access.
 
+#### Improved user experience
+
+APIs enable developers to create applications that are more user-friendly and intuitive. For example, 
+when a user enters a destination into a navigation app, the app uses a location API to determine the user’s current
+location and provide directions to the destination. The app can also use a weather API to provide real-time weather
+updates along the route.
+
+#### Improved developer experience
+
+APIs enable developers to build applications faster and more efficiently. For example, a developer can use a
+payment API to integrate a payment gateway into an application, rather than building the payment gateway from scratch.
+This saves time and resources, and enables developers to focus on other more business focused aspects of the application.
+
+#### Improved business agility
+
+APIs enable organizations to quickly adapt to changing market conditions and customer needs. For example,
+a company can use a payment API to quickly add new payment methods to its website or mobile app, or a weather API to
+provide real-time weather updates to its customers.
+
+### What the types of APIs?
+
+APIs enable applications to expose data and functionality over the internet. APIs can be grouped and categorised into 
+four main types:
+
+#### Open APIs 
+
+These are open-source application programming interfaces you can access with the HTTP protocol. Also known as public 
+APIs, they have defined API endpoints and request and response formats.
+
+
+#### Partner APIs 
+
+Enable connectivity with strategic business partners. Typically, developers access these APIs in self-service mode 
+through a public API developer portal. Still, they need to complete an onboarding process and get login credentials to
+access partner APIs.
+
+
+#### Internal APIs 
+
+Typically, these API remain hidden from external users, and therefore aren't available for users outside of an organisation
+and are instead intended to improve productivity and communication across different internal development teams.
+
+
+#### Composite APIs 
+
+This type of API combine multiple data or service APIs, Enabling developers to access several endpoints in a single call. 
+Composite APIs are useful in microservices architecture where performing a single task may require information from 
+several sources.

@@ -35,6 +35,11 @@ Originally, the term _API First_ was coined by [Kin Lane](https://kinlane.com/) 
 Kin Lane is a well known API Evangelist and has been working in the API space for a number of years.  He has been
 instrumental in helping to shape the API industry and has been a strong advocate of the _API First_ approach.
 
+::quote
+API-first is an approach to software design that centers on the API. It should be possible to perform every action via
+the scripting language and every piece of functionality should be available for other systems to leverage.
+::
+
 At its core, _API First_ helps to focus on 3 main aspects or pillars of the business organisation and how they can be 
 improved by adopting an _API First_ approach. These three pillars are:
 
@@ -79,6 +84,7 @@ With the right iterative approach the API can grow in an
     are easier to understand and manage.
 
 
+
 ::get-started
 ::
 
@@ -92,7 +98,6 @@ The core three core principles of API first to focus on are :
 
 * **API as first UI** 
 
-
 Every product gets designed with its API in mind. The API is the first UI in the sense that it defines and limits the 
 kinds of interactions that a product supports. Concrete UIs that are later built may only use parts of the API, or they 
 may combine various products into one UX, but in terms of pure product capabilities, the *_API is the single source of truth_*.
@@ -105,12 +110,81 @@ discussing design options and preferences can be extremely valuable. With the ri
 in an evolutionary manner (adding more features over time as they are requested). As a general guideline, 
 always discussing designs before implementing them helps with creating more user-friendly APIs.
 
-
 * **API Documentation**
-
 
 Since the API is one of the essential aspects of all products, documenting it becomes important. While the level of 
 documentation depends on intended audience size and how much the Developer Experience (DX) of the API is thought to be 
 a deciding factor, documentation should be seen as an essential part of each API. Structured documentation such as 
 API labels can help to document APIs in a more structured way, so that growing and evolving API landscapes are easier 
 to understand and manage.
+
+### Adopting the API First approach
+
+The above core principles will help guide you to start thinking about APIs and how they can be used to help your
+organisation achieve its goals.  The next step is to start putting them into practice.  The best way to do this is to
+start by creating an API First Strategy, and adopting an API First mindset. There are a few key concepts to consider 
+and always put at the forefront of your mind when adopting an API First approach.
+
+#### 1 - APIs are Products
+Developing and publishing an API may at first seem easy. However, what is truly difficult is actually preparing an API
+for public consumption. That’s the difference between merely creating APIs and treating them as products. 
+
+An API-first approach requires you to think about:
+* how developers will interact with your API
+* how you’ll educate them on its functionality
+* how you’ll maintain it over time
+* which tools to use to build the API
+* how you’ll adhere to standards of compatibility, security, and simplicity.
+
+When a company builds a product, it must meet industry standards. For APIs, this means practicing foundational software 
+design and development cycles that deliver a quality software product. Product development includes upfront design and 
+specifications, peer programming, technology choices and programming languages support that match the API’s goals, 
+the decision between cloud and on-site, testing, and user research.
+
+#### 2 - Foundational Design
+
+API-first design requires organisations and developers to think about APIs from the very beginning. The API should be 
+designed and developed first. This means that the API is the first user interface (UI) in the sense that it defines
+and limits the kinds of interactions that a product supports.
+
+Traditionally, organisations have focused on the user interface (UI) and user experience (UX) of their products, before
+thinking of the API, and the API is often an afterthought, and worse its design is primarily driven by the needs and 
+requirements of the User Interface.  This is a massive mistake, and often leads to poor quality APIs
+
+API-first development treats APIs as the foundation. Instead of pre-built or opinionated software solutions or experiences, 
+it ensures that all of a platform’s functionality is accessible to you through the APIs.
+
+#### 3 - Team Collaboration
+
+API-first development is more than just technical standards. It’s a way of working and collaborating. Rather than just
+being concerned with the specifics of each API, an API-first approach is more about looking at your teams and operations
+that surround those APIs.
+
+Achieving an API-first environment requires strong leadership from a product manager who is both knowledgeable about 
+APIs and equipped with sufficient technical skills. It also requires skilled developers. Although most enterprise 
+developers maybe good at delivering exceptional end-user experiences. It is a completely different skill set to
+creating good engineering (or developer) experience (DX). You need a customer success function to help with 
+implementation and support to field ongoing queries and user feedback.
+
+#### 4 - API Contract
+
+Creating open and accessible APIs, companies can reuse, redeploy, and share functionality easily. But that’s easier 
+said than done. One way to promote re-usability is through consistent API description language. Specifically, this 
+creates a contract dictating how an API is supposed to behave. Establishing a contract involves spending more time
+thinking about the design of an API and often involves additional planning and collaboration.
+
+### API Fist is not easy
+
+Adopting an API First approach is not easy, and it is not a quick fix.  It is a long term strategy that requires
+commitment and dedication.  It is a strategy that requires you to think about APIs as products and how they can be used
+to help your organisation achieve its goals.  
+
+The API First strategy requires you to think about APIs as end products and how they can be used to help your organisation
+achieve its goals or generating alternative revenue streams and enhancing existing product portfolios.  This requires 
+you to think about the business value of the API and how it will be used by the consumers of the API.
+
+Business and technical leaders need to embark on API-first transformations with their eyes wide open. The skills and mindset
+required to succeed are different from those needed for traditional software development. The API-first approach requires
+a different way of thinking about software development and the role of APIs in the business.
+
+
