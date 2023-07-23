@@ -1,5 +1,5 @@
 
-<div  align="center" style="text-align: center; padding: 20px">
+<div  align="center" style="text-align: center; padding: 20px;">
 <a href="https://threenine.co.uk" target="_blank">
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/threenine/website/raw/master/images/main-logo-header-dark.png">
