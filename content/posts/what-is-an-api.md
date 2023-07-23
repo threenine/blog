@@ -1,7 +1,7 @@
 ---
 title: What is an API?
-subtitle: Discover how APIs enable revolutionise your business and how they relate to the products of your organization.
-description: What is API First? Discover how developing your API first will enable developing better and more products of your organization.
+subtitle: Discover how APIs are software intermediary enabling different applications to communicate with each other
+description: API stands for Application Programming Interface. The application can be any software that performs a specific task and the interface is a point where two applications communicate. One application acts as a client and the other acts as a server.
 summary: 
 category:
   title: API Development
