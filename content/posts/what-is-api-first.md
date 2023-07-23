@@ -173,7 +173,7 @@ said than done. One way to promote re-usability is through consistent API descri
 creates a contract dictating how an API is supposed to behave. Establishing a contract involves spending more time
 thinking about the design of an API and often involves additional planning and collaboration.
 
-### API Fist is not easy
+### API First is not easy
 
 Adopting an API First approach is not easy, and it is not a quick fix.  It is a long term strategy that requires
 commitment and dedication.  It is a strategy that requires you to think about APIs as products and how they can be used
@@ -187,4 +187,5 @@ Business and technical leaders need to embark on API-first transformations with 
 required to succeed are different from those needed for traditional software development. The API-first approach requires
 a different way of thinking about software development and the role of APIs in the business.
 
-
+::here-to-help
+::
