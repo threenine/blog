@@ -27,7 +27,8 @@ to ensure your API development project have better chances of success.
 
 ### What is an API?
 
-API (Application Programming Interface) is a set of instructions, standards or requirements that enables a 
+We have previously covered [What is an API?](https://threenine.blog/what-is-an-api "What is an API? | threenine.co.uk")
+in a previous article, but to recap an API, or _Application Programming Interface_, is a set of defined rules that enable different applications to
 software or app to use features, services or functionality of another app, platform or device to enhance functionality. In short, it’s 
 something that lets apps communicate with each other.
 
@@ -181,6 +182,7 @@ are able to communicate effectively with your development team and ensure you ar
   separate language.
 
 ## API Design
+
 The most important part of designing an API is to understand the business problem that needs to be solved, and then 
 design an API that solves that problem in the simplest way possible. The API should be designed to be easy to use,
 and easy to understand. 
