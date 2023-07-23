@@ -16,7 +16,6 @@
     "@tailwindcss/typography": "^0.5.9",
     "@ubclaunchpad/vue-fathom": "^2.0.0",
     "nuxt-schema-org": "^2.1.0",
-    "nuxt-simple-sitemap": "^2.7.0",
     "tailwindcss": "^3.3.1"
   },
   "devDependencies": {
@@ -26,6 +25,7 @@
     "@nuxt/ui": "latest",
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@types/node": "^18",
-    "nuxt": "^3.6.2"
+    "nuxt": "^3.6.2",
+    "sitemap": "^7.1.1"
   }
 }
