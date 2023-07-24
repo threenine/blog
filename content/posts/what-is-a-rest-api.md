@@ -125,8 +125,11 @@ It is used to modify capabilities. The PATCH request only needs to contain the c
 
 ::warning
 Many may intuitively think that the HTTP method names are used to indicate CRUD based operations, but this is not the case.
-The idea of an HTTP resource is very abstract and is not really directly related to database design. The HTTP methods are used to
-indicate the desired action to be performed on the resource. The HTTP methods are not directly related to CRUD operations.
+The idea of an HTTP resource is very abstract and is not really directly related to database design. 
+
+The HTTP methods are used to indicate the desired action to be performed on the resource. *The HTTP methods are not directly related to CRUD operations.*
+
+**CRUD operations are not a requirement for a REST based API**
 
 #title 
   REST is not about CRUD
