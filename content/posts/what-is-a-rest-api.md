@@ -86,3 +86,51 @@ communicates with the end application or an intermediary.
 
 REST APIs usually send static resources, but in certain cases, responses can also contain executable code. In these 
 cases, the code should only run on-demand.
+
+
+### REST API Resources
+
+The key abstraction of information in REST is a _resource_.  A resource is a conceptual mapping to a set of entities, 
+not the entity that corresponds to the mapping at any particular point in time.
+
+Any information that can be named can be a resource: 
+* document 
+* image
+* a temporal service (e.g. "today's weather in London") 
+* a collection of other resources
+* a non-virtual object or a digital representation of anything in the real world  (e.g. a person)
+
+In other words, any concept that might be the target of a hypertext reference must fit within the definition of a resource,
+and every resource should have a unique identifier. In the case of HTTP, URIs are used to identify resources.
+
+
+### REST API Methods
+
+There are typically five methods that are commonly used in a REST-based Architecture:
+
+
+#### GET
+The HTTP GET method is used to read or retrieve a representation of a resource.
+
+#### POST
+Often utilized to create new resources.
+
+#### PUT
+Primarily used for updating the capabilities. However, may also be used to create a resource in the case where the
+resource ID is chosen by the client instead of by the server.
+
+#### PATCH
+It is used to modify capabilities. The PATCH request only needs to contain the changes to the resource, not the complete resource.
+
+
+::warning
+Many may intuitively think that the HTTP method names are used to indicate CRUD based operations, but this is not the case.
+The idea of an HTTP resource is very abstract and is not really directly related to database design. The HTTP methods are used to
+indicate the desired action to be performed on the resource. The HTTP methods are not directly related to CRUD operations.
+
+#title 
+  REST is not about CRUD
+::
+
+
+
