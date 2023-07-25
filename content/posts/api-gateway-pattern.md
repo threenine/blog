@@ -1,20 +1,23 @@
 ---
 title: API Gateway Pattern
 subtitle: using API gateways for communication between clients and applications
-description: Understand the uses of the API gateway pattern and when to use it in API Development to provide a single-entry point for groups of microservices.
-summary: 
-category:
-  title: API Development
+description: Understand the uses of the API gateway pattern and when to use it
+  in API Development to provide a single-entry point for groups of
+  microservices.
+summary: sdfasdfasdfasdfasdf
+featureImage:
+  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313878/api-gateway_r7vd0m.jpg
+  title: API Gateway Pattern
 author:
   name: Gary Woodfine
   github: garywoodfine
   imageUrl: /garywoodfine.png
   role: Founder & CTO
-featureImage:
-  url: /images/api-gateway.jpg
-  title:  API Gateway Pattern
+  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
 publishDate: 10 June 2023
 publishDateTime: 2023-06-10:17:30
+category:
+  title: API Development
 ---
 The _API Gateway pattern_ is a service that provides a single-entry point for certain groups of microservices. It's similar to the 
 Facade pattern from object-oriented design, but in this case, it's part of a distributed system. The API Gateway pattern 
