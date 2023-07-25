@@ -17,5 +17,9 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml']
     }
   },
-
+  image: {
+    cloudinary: {
+      baseURL: ''
+    }
+  }
 })
