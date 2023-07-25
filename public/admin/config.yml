@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
   repo: threenine/blog
 publish_mode: editorial_workflow
