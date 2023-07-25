@@ -121,8 +121,8 @@ There are typically five methods that are commonly used in a REST-based Architec
 
 
 ::warning
-Many may intuitively think that the HTTP method names are used to indicate CRUD based operations, but this is not the case.
-The idea of an HTTP resource is very abstract and is not really directly related to database design at all.
+Many may intuitively assume that the HTTP method names are used to indicate CRUD based operations, but this is certainly
+not the case.  The idea of an HTTP resource is very abstract and is not really directly related to database design at all.
 
 The HTTP methods are used to indicate the desired action to be performed on the resource. *The HTTP methods are not directly related to CRUD operations.*
 
@@ -148,11 +148,11 @@ exposing APIs over the internet. A large majority of organisations have adopted 
 APIs to develop customer and partner facing Web APIs, and also for exposing internal APIs to support their internal
 applications.
 
-This is because REST APIs are easy to understand, easy to implement, and easy to consume. REST APIs are also very
+This is because REST APIs are easy to understand, relatively easy to implement, and easy to consume. REST APIs are also very
 flexible and can be used to expose a wide variety of data and functionality. REST APIs are also very scalable and
 performant, and can be used to support a large number of clients.  However, unfortunately not all developers or 
-organisations understand the principles of REST and often misuse the term REST to describe any HTTP based API, and worse
-misimplement their APIs often leading to poor performance and scalability issues, and what is called a REST Anti-Patterns.
+organisations understand the principles of REST which often misuse the term REST to describe any HTTP based API, and worse
+incorrectly implement their APIs often leading to poor performance and scalability issues, and what is called a REST Anti-Patterns.
 
 ::get-started
 ::
