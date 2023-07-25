@@ -1,20 +1,24 @@
 ---
 title: What is API First?
-subtitle: Discover how APIs enable revolutionise your business and how they relate to the products of your organization.
-description: What is API First? Discover how developing your API first will enable developing better and more products of your organization.
-summary: 
-category:
-  title: API Development
+subtitle: Discover how APIs enable revolutionise your business and how they
+  relate to the products of your organization.
+description: What is API First? Discover how developing your API first will
+  enable developing better and more products of your organization.
+summary: What is API First? Discover how developing your API first will enable
+  developing better and more products of your organization.
+featureImage:
+  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313893/api-first_aeykly.jpg
+  title: What is API First?
 author:
   name: Gary Woodfine
   github: garywoodfine
   imageUrl: /garywoodfine.png
   role: Founder & CTO
-featureImage:
-  url: /images/api-first.jpg
-  title:  What is API First?
+  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
 publishDate: 13 July 2023
 publishDateTime: 2023-07-13:17:30
+category:
+  title: API Development
 ---
 
 Starting a new API project can be a daunting task, especially if you are not sure where to start.  There are a number 
