@@ -187,5 +187,4 @@ Business and technical leaders need to embark on API-first transformations with 
 required to succeed are different from those needed for traditional software development. The API-first approach requires
 a different way of thinking about software development and the role of APIs in the business.
 
-::here-to-help
-::
+

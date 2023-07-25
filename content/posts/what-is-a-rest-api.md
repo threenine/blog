@@ -154,5 +154,3 @@ performant, and can be used to support a large number of clients.  However, unfo
 organisations understand the principles of REST which often misuse the term REST to describe any HTTP based API, and worse
 incorrectly implement their APIs often leading to poor performance and scalability issues, and what is called a REST Anti-Patterns.
 
-::get-started
-::
