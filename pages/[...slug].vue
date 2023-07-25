@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+
+
 const route = useRoute()
 
 const {data: post} = await useAsyncData('post', () => queryContent('/posts')
@@ -27,11 +29,13 @@ useSeoMeta({
     <template #mainContent >
 
       <content-renderer :value="post" />
+      <blog-author />
     </template>
 
     <template #rightColumn>
 
     </template>
+
   </nuxt-layout>
 </template>
 
