@@ -1,20 +1,25 @@
 ---
 title: An introductory guide to API Development
 subtitle: Overview, Terminology, and Best Practices
-description: threenine.co.uk cover introductory concept, terminologies & technologies related to API development in order to gain a basic understanding.
-summary: 
-category:
+description: threenine.co.uk cover introductory concept, terminologies &
+  technologies related to API development in order to gain a basic
+  understanding.
+summary: threenine.co.uk cover introductory concept, terminologies &
+  technologies related to API development in order to gain a basic
+  understanding.
+featureImage:
+  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313883/api-development_x0t4xe.jpg
   title: API Development
 author:
   name: Gary Woodfine
   github: garywoodfine
   imageUrl: /garywoodfine.png
   role: Founder & CTO
-featureImage:
-  url: /images/api-development.jpg
-  title:  API Development
+  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
 publishDate: 05 June 2023
 publishDateTime: 2023-06-05:17:30
+category:
+  title: API Development
 ---
 
 A common requirement in modern software applications is to enable connectivity to data, services and other applications
