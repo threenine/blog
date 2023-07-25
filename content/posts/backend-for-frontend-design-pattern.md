@@ -1,20 +1,26 @@
 ---
 title: Backend for Frontend Design Pattern
-subtitle: improving end-user experience on User Interfaces by implementing the Backend for Frontend pattern
-description: The backend for frontend (BFF) is a software architecture pattern relevant for microservices & domain-driven design to simplify the communication between the frontend and backend
-summary: 
-category:
-  title: API Development
+subtitle: improving end-user experience on User Interfaces by implementing the
+  Backend for Frontend pattern
+description: The backend for frontend (BFF) is a software architecture pattern
+  relevant for microservices & domain-driven design to simplify the
+  communication between the frontend and backend
+summary: The backend for frontend (BFF) is a software architecture pattern
+  relevant for microservices & domain-driven design to simplify the
+  communication between the frontend and backend
+featureImage:
+  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313879/back-end-for-front-end_bl2ks3.png
+  title: Backend for Frontend Design Pattern
 author:
   name: Gary Woodfine
   github: garywoodfine
   imageUrl: /garywoodfine.png
   role: Founder & CTO
-featureImage:
-  url: /images/back-end-for-front-end.png
-  title:  Backend for Frontend Design Pattern
+  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
 publishDate: 10 June 2023
 publishDateTime: 2023-06-10:17:30
+category:
+  title: API Development
 ---
 
 The _backend for frontend (BFF)_ is a software architecture pattern relevant for microservices & domain-driven design to 
