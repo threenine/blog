@@ -6,7 +6,7 @@ description: Understand the uses of the API gateway pattern and when to use it
   microservices.
 summary: sdfasdfasdfasdfasdf
 featureImage:
-  url: /images/api-gateway.jpg
+  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313878/api-gateway_r7vd0m.jpg
   title: API Gateway Pattern
 author:
   name: Gary Woodfine
