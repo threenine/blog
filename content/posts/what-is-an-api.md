@@ -1,20 +1,28 @@
 ---
 title: What is an API?
-subtitle: Discover how APIs are software intermediary enabling different applications to communicate with each other
-description: API stands for Application Programming Interface. The application can be any software that performs a specific task and the interface is a point where two applications communicate. One application acts as a client and the other acts as a server.
-summary: 
-category:
-  title: API Development
+subtitle: Discover how APIs are software intermediary enabling different
+  applications to communicate with each other
+description: API stands for Application Programming Interface. The application
+  can be any software that performs a specific task and the interface is a point
+  where two applications communicate. One application acts as a client and the
+  other acts as a server.
+summary: API stands for Application Programming Interface. The application can
+  be any software that performs a specific task and the interface is a point
+  where two applications communicate. One application acts as a client and the
+  other acts as a server.
+featureImage:
+  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313881/what-is-an-api_fbom2y.jpg
+  title: What is an API?
 author:
   name: Gary Woodfine
   github: garywoodfine
   imageUrl: /garywoodfine.png
   role: Founder & CTO
-featureImage:
-  url: /images/what-is-an-api.jpg
-  title:  What is an API?
+  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
 publishDate: 01 June 2023
 publishDateTime: 2023-06-01:17:30
+category:
+  title: API Development
 ---
 
 In today's competitive digital world, APIs are the foundation of digital transformation. They enable organizations to 
