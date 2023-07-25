@@ -108,19 +108,16 @@ and every resource should have a unique identifier. In the case of HTTP, URIs ar
 
 There are typically five methods that are commonly used in a REST-based Architecture:
 
+| Method      | Description |
+|-------------| ----------- |
+| **GET**     | Retrieves a representation of the resource at the specified URI. |
+| **POST**    | Creates a new resource at the specified URI. |
+| **PUT**     | Updates the capabilities of the resource at the specified URI. |
+| **PATCH**   | Updates the capabilities of the resource at the specified URI. |
+| **DELETE**  | Deletes the resource at the specified URI. |
+| **HEAD**    | Retrieves the headers of the resource at the specified URI. |
+| **OPTIONS** | Retrieves the options available for the resource at the specified URI. |
 
-#### GET
-The HTTP GET method is used to read or retrieve a representation of a resource.
-
-#### POST
-Often utilized to create new resources.
-
-#### PUT
-Primarily used for updating the capabilities. However, may also be used to create a resource in the case where the
-resource ID is chosen by the client instead of by the server.
-
-#### PATCH
-It is used to modify capabilities. The PATCH request only needs to contain the changes to the resource, not the complete resource.
 
 
 ::warning
@@ -135,5 +132,13 @@ The HTTP methods are used to indicate the desired action to be performed on the 
   REST is not about CRUD
 ::
 
+### When to use REST
 
+::quote
+ The REST interface is designed to be efficient for large-grain hypermedia data transfer, optimizing for the common case
+    of the Web, but resulting in an interface that is not optimal for other forms of architectural interaction.
+::
 
+REST API's are great architectural pattern to use when interaction level requires course-grained resources over a HTTP based network.
+This is common for APIs exposed over the internet that are consumed by web applications, mobile applications or other
+internet connected devices, where the network latency is high and the bandwidth is low.
