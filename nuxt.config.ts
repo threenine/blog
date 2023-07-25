@@ -17,9 +17,5 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml']
     }
   },
-  image: {
-    cloudinary: {
-      baseURL: 'https://res.cloudinary.com/threenine-co-uk/image/upload/'
-    }
-  }
+
 })
