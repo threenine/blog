@@ -7,6 +7,11 @@ site_url: https://threenine.blog
 logo_url: https://threenine.co.uk/images/threenine_tag.png
 display_url: https://threenine.blog
 show_preview_links: true
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: threenine-co-uk
+    api_key: 896994212468486
 media_folder: "public/images"
 public_folder: "/images"
 collections:

@@ -16,5 +16,10 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/sitemap.xml']
     }
+  },
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/threenine-co-uk/image/fetch/'
+    }
   }
 })
