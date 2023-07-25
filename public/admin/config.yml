@@ -1,8 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   branch: main
   repo: threenine/blog
-  auth_endpoint: auth
 publish_mode: editorial_workflow
 site_url: https://threenine.blog
 logo_url: https://threenine.co.uk/images/threenine_tag.png
