@@ -1,20 +1,25 @@
 ---
 title: What is a REST API?
 subtitle: A flexible, lightweight approach to connecting and integrating applications.
-description: A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style. For this reason, REST APIs are sometimes referred to RESTful APIs.
-summary: 
-category:
-  title: API Development
+description: A REST API is an API that conforms to the design principles of the
+  REST, or representational state transfer architectural style. For this reason,
+  REST APIs are sometimes referred to RESTful APIs.
+summary: A REST API is an API that conforms to the design principles of the
+  REST, or representational state transfer architectural style. For this reason,
+  REST APIs are sometimes referred to RESTful APIs.
+featureImage:
+  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313880/what-is-a-rest-api_bfneoa.jpg
+  title: What is an API?
 author:
   name: Gary Woodfine
   github: garywoodfine
   imageUrl: /garywoodfine.png
   role: Founder & CTO
-featureImage:
-  url: /images/what-is-a-rest-api.jpg
-  title:  What is an API?
+  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
 publishDate: 05 June 2023
 publishDateTime: 2023-06-05:17:30
+category:
+  title: API Development
 ---
 
 In [What is an API](https://threenine.blog/posts/what-is-an-api "What is an API | threenine.co.uk") we introduced and discussed some of the
