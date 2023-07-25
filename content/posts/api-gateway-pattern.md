@@ -4,7 +4,8 @@ subtitle: using API gateways for communication between clients and applications
 description: Understand the uses of the API gateway pattern and when to use it
   in API Development to provide a single-entry point for groups of
   microservices.
-summary: sdfasdfasdfasdfasdf
+summary: Understand the uses of the API gateway pattern and when to use it in
+  API Development to provide a single-entry point for groups of microservices.
 featureImage:
   url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313878/api-gateway_r7vd0m.jpg
   title: API Gateway Pattern
