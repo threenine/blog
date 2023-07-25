@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   },
   image: {
     cloudinary: {
-      baseURL: 'https://res.cloudinary.com/threenine-co-uk/image/fetch/'
+      baseURL: 'https://res.cloudinary.com/threenine-co-uk/image/upload/'
     }
   }
 })
