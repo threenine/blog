@@ -12,7 +12,7 @@ featureImage:
   url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313879/back-end-for-front-end_bl2ks3.png
   title: Backend for Frontend Design Pattern
 author:
-  name: Gary Woodfine
+  name: Gary Woodfinea
   github: garywoodfine
   imageUrl: /garywoodfine.png
   role: Founder & CTO

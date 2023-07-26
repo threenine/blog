@@ -3,7 +3,7 @@
 <template>
   <div class="bg-orange-300 mt-5">
     <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">Need help starting your API project?<br />We'll help you with your API Design, Development <br/>and adopting the API First strategy.</h2>
+      <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Need help starting your API project?<br />We'll help you with your API Design, Development <br/>and adopting the API First strategy.</h2>
       <div class="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
         <a href="https://threenine.co.uk/contact" target="_blank" class="bg-orange-500 hover:bg-orange-400 text-gray-100 font-bold py-2 px-4 rounded inline-flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fill-current w-4 h-4 mr-2">

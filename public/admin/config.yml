@@ -50,3 +50,19 @@ collections:
           - {label: "Publish Date", name: "publishDate", widget: "string" }
           - {label: "Publish Date time", name: "publishDateTime", widget: "string" }
           - {label: "Body", name: "body", widget: "markdown" }
+    - name: "authors"
+      identifier_field: username
+      label: "Authors"
+      folder: "content/authors"
+      format: 'frontmatter'
+      create: true
+      slug: "{{dirname}}/{{slug}}"
+      fields:
+        - { label: "Username", name: "username", widget: "string", required: true }
+        - { label: "Full name", name: "fullName", widget: "string", required: true }
+        - { label: "Role", name: "role", widget: "string", required: true }
+        - { label: "Image", name: "image", widget: "image", required: true }
+        - { label: "Profile", name: "profile", widget: "text", required: true }
+        - { label: "GitHub", name: "github", widget: "string", required: true }
+        - { label: "Nostr", name: "nostr", widget: "string", required: true }
+        - { label: "Bio", name: "body", widget: "markdown", required: true }
