@@ -13,9 +13,6 @@ media_library:
   config:
     cloud_name: threenine-co-uk
     api_key: 896994212468486
-
-media_folder: "public/images"
-public_folder: "/images"
 collections:
     - name: "posts"
       identifier_field: title
