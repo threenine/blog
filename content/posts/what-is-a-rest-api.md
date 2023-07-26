@@ -10,12 +10,7 @@ summary: A REST API is an API that conforms to the design principles of the
 featureImage:
   url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313880/what-is-a-rest-api_bfneoa.jpg
   title: What is an API?
-author:
-  name: Gary Woodfine
-  github: garywoodfine
-  imageUrl: /garywoodfine.png
-  role: Founder & CTO
-  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
+author: garywoodfine
 publishDate: 05 June 2023
 publishDateTime: 2023-06-05:17:30
 category:

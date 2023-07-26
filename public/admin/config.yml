@@ -36,14 +36,11 @@ collections:
               ]
           - label: "Author"
             name: "author"
-            widget: "object"
-            fields:
-              [
-                { label: "Name", name: "name", widget: "string" },
-                { label: "ImageUrl", name: "Image", widget: "image" },
-                { label: "Role", name: "role", widget: "string" },
-                { label: "GitHub", name: "github", widget: "string" },
-              ]
+            widget: "relation"
+            collection: "authors"
+            search_fields: ["fullName"]
+            value_field: "username"
+            display_fields: ["fullName"]
           - {label: "Publish Date", name: "publishDate", widget: "string" }
           - {label: "Publish Date time", name: "publishDateTime", widget: "string" }
           - {label: "Body", name: "body", widget: "markdown" }

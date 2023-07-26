@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import {PropType} from "@vue/runtime-core";
 import {PostHeading} from "~/types/PostHeading";
+import MetaAuthor from "~/components/blog/meta-author.vue";
 
 const props = defineProps({
   post: {
@@ -24,14 +25,16 @@ const props = defineProps({
       <p class="text-xl font-semibold text-gray-100">
         {{ post?.subtitle }}
       </p>
-      <div class="flex mt-3">
+
+      <meta-author :publish-date="post?.publishDate" :username="post?.author"/>
+<!--      <div class="flex mt-3">
         <img :src="post?.author?.imageUrl" :alt="post?.author?.name"
              class="h-10 w-10 rounded-full mr-2 object-cover" />
         <div>
           <p class="font-semibold text-gray-200 text-sm"> {{post?.author?.name}} </p>
           <p class="font-semibold text-gray-400 text-xs"> {{ post?.publishDate }} </p>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>

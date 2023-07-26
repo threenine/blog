@@ -10,12 +10,7 @@ summary: threenine.co.uk cover introductory concept, terminologies &
 featureImage:
   url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313883/api-development_x0t4xe.jpg
   title: API Development
-author:
-  name: Gary Woodfine
-  github: garywoodfine
-  imageUrl: /garywoodfine.png
-  role: Founder & CTO
-  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
+author: garywoodfine
 publishDate: 05 June 2023
 publishDateTime: 2023-06-05:17:30
 category:

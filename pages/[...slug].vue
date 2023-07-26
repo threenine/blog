@@ -19,6 +19,8 @@ useSeoMeta({
   twitterTitle: () => post.value?.title,
 })
 
+let username = post.value?.author;
+
 </script>
 
 <template>
@@ -29,7 +31,7 @@ useSeoMeta({
     <template #mainContent >
 
       <content-renderer :value="post" />
-      <blog-author />
+      <blog-author :username="username" />
     </template>
 
     <template #rightColumn>

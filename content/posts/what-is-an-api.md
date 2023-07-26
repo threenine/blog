@@ -13,12 +13,7 @@ summary: API stands for Application Programming Interface. The application can
 featureImage:
   url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313881/what-is-an-api_fbom2y.jpg
   title: What is an API?
-author:
-  name: Gary Woodfine
-  github: garywoodfine
-  imageUrl: /garywoodfine.png
-  role: Founder & CTO
-  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
+author: garywoodfine
 publishDate: 01 June 2023
 publishDateTime: 2023-06-01:17:30
 category:

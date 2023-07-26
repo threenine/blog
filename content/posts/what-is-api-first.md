@@ -9,12 +9,7 @@ summary: What is API First? Discover how developing your API first will enable
 featureImage:
   url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313893/api-first_aeykly.jpg
   title: What is API First?
-author:
-  name: Gary Woodfine
-  github: garywoodfine
-  imageUrl: /garywoodfine.png
-  role: Founder & CTO
-  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
+author: garywoodfine
 publishDate: 13 July 2023
 publishDateTime: 2023-07-13:17:30
 category:

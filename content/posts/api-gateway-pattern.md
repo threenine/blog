@@ -10,12 +10,7 @@ summary: Understand the uses of the API gateway pattern and when to use it in
 featureImage:
   url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313878/api-gateway_r7vd0m.jpg
   title: API Gateway Pattern
-author:
-  name: Gary Woodfine
-  github: garywoodfine
-  imageUrl: /garywoodfine.png
-  role: Founder & CTO
-  Image: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690315793/garywoodfine_tlccjw.png
+author: garywoodfine
 publishDate: 10 June 2023
 publishDateTime: 2023-06-10:17:30
 category:
