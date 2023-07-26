@@ -12,10 +12,10 @@ useSeoMeta({
   description: post.value?.description,
   ogTitle: () => post.value?.title,
   ogDescription: () => post.value?.summary,
-  ogImage:  () => `https://threenine.blog${post.value?.featureImage.url}`,
+  ogImage:  () => `${post.value?.featureImage.url}`,
   twitterCard: 'summary_large_image',
   twitterDescription: () => post.value?.summary,
-  twitterImage: () => `https://threenine.blog${post.value?.featureImage.url}`,
+  twitterImage: () => `${post.value?.featureImage.url}`,
   twitterTitle: () => post.value?.title,
 })
 
