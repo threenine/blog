@@ -53,8 +53,8 @@ collections:
       folder: "content/authors"
       format: 'frontmatter'
       create: true
-      slug: "{{dirname}}/{{slug}}"
-      path: "{{dirname}}/{{slug}}"
+      slug: "authors/{{slug}}"
+      path: "authors/{{slug}}"
       fields:
         - { label: "Title", name: "title", widget: "string", required: true}
         - { label: "Username", name: "username", widget: "string", required: true }
