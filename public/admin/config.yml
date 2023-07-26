@@ -54,6 +54,7 @@ collections:
       format: 'frontmatter'
       create: true
       slug: "{{dirname}}/{{slug}}"
+      path: "{{dirname}}/{{slug}}"
       fields:
         - { label: "Username", name: "username", widget: "string", required: true }
         - { label: "Full name", name: "fullName", widget: "string", required: true }
