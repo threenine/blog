@@ -16,8 +16,7 @@ featureImage:
 author: garywoodfine
 publishDate: 01 June 2023
 publishDateTime: 2023-06-01:17:30
-category:
-  title: API Development
+category: API Development
 ---
 
 In today's competitive digital world, APIs are the foundation of digital transformation. They enable organizations to 

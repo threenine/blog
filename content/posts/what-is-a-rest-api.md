@@ -13,8 +13,7 @@ featureImage:
 author: garywoodfine
 publishDate: 05 June 2023
 publishDateTime: 2023-06-05:17:30
-category:
-  title: API Development
+category: API Development
 ---
 
 In [What is an API](https://threenine.blog/posts/what-is-an-api "What is an API | threenine.co.uk") we introduced and discussed some of the

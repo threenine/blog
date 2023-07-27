@@ -13,8 +13,7 @@ featureImage:
 author: garywoodfine
 publishDate: 10 June 2023
 publishDateTime: 2023-06-10:17:30
-category:
-  title: API Development
+category: API Development
 ---
 The _API Gateway pattern_ is a service that provides a single-entry point for certain groups of microservices. It's similar to the 
 Facade pattern from object-oriented design, but in this case, it's part of a distributed system. The API Gateway pattern 

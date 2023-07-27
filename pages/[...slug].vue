@@ -20,6 +20,7 @@ useSeoMeta({
 })
 
 let username = post.value?.author;
+let category = post.value?.category.title;
 
 </script>
 
@@ -35,7 +36,7 @@ let username = post.value?.author;
     </template>
 
     <template #rightColumn>
-
+      <blog-related-posts :category="category" />
     </template>
 
   </nuxt-layout>

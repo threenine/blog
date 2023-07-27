@@ -14,8 +14,7 @@ featureImage:
 author: garywoodfine
 publishDate: 10 June 2023
 publishDateTime: 2023-06-10:17:30
-category:
-  title: API Development
+category: API Development
 ---
 
 The _backend for frontend (BFF)_ is a software architecture pattern relevant for microservices & domain-driven design to 

@@ -12,8 +12,7 @@ featureImage:
 author: garywoodfine
 publishDate: 13 July 2023
 publishDateTime: 2023-07-13:17:30
-category:
-  title: API Development
+category: API Development
 ---
 
 Starting a new API project can be a daunting task, especially if you are not sure where to start.  There are a number 
