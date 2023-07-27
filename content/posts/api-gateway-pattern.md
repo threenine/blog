@@ -102,10 +102,10 @@ The API Gateway pattern has some disadvantages and must be considered when desig
 * **Increased operational latency** - the API Gateway is a single point of failure for all clients. If it fails, all clients fail.
 * **Increased operational security risk** - the API Gateway is the entry point for all clients. A security breach in the API Gateway has much more impact than a breach in a single application.
 
-#﻿## Types of API Gateway
+### Types of API Gateway
 
 There are two main types of API gateways to choose from: _cloud-based API gateways_ and _on-premise API gateways_. You can also opt for a hybrid solution, where your API gateway provider hosts the API management layer while your edge gateways are deployed on your infrastructure. 
-
-#﻿### Cloud-based API Gateway
+ 
+### Cloud-based API Gateway
 
 A cloud-based API gateway can give you a head-start, as you don’t have to worry about infrastructure headaches
