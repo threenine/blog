@@ -107,11 +107,19 @@ There are two main types of API gateways to choose from: *cloud-based API gatewa
 ### Cloud-based API Gateway
 
 A cloud-based API gateway can give you a head-start, as you don’t have to worry about infrastructure headaches. Typically these are made available by various Cloud Providers such as Digital Ocean, Netlify, AWS, Azure and GCP.
+These API Gateways will typically help you to implement and leverage several benefits
 
-T﻿hese API Gateways will typically help you to implement and leverage several benefits
+* **API request management:** intercepting API requests, API gateways can combine, reformat, or otherwise manipulate both requests and the resulting response. This is useful if clients "say" one thing when calling an API but your microservices need to "hear" something different in order to respond. In this case, the API gateway serves essentially as a translation layer for API calls.
+* **Rate limiting:** API gateways can "throttle" or rate-limit incoming requests, which means restricting the number of requests that clients can make in a given timeframe. Rate-limiting helps mitigate security abuse. It also protects against the risk that buggy or poorly managed clients will overwhelm applications by making large numbers of repeated, unnecessary requests.
+*  **Load balancing:** Although API gateways do more than just load balancing, the ability to balance load by distributing traffic across multiple application instances or microservices is one of their features.
+* **Monitoring and observability:** API gateways can monitor and log API requests, providing the data necessary to drive observability.
+* **Security:** API gateways can also enforce security rules. For example, they could block malicious requests to prevent DDoS attacks.
 
-* \*API request management:\* By intercepting API requests, API gateways can combine, reformat, or otherwise manipulate both requests and the resulting response. This is useful if clients "say" one thing when calling an API but your microservices need to "hear" something different in order to respond. In this case, the API gateway serves essentially as a translation layer for API calls.
-  Rate limiting: API gateways can "throttle" or rate-limit incoming requests, which means restricting the number of requests that clients can make in a given timeframe. Rate-limiting helps mitigate security abuse. It also protects against the risk that buggy or poorly managed clients will overwhelm applications by making large numbers of repeated, unnecessary requests.
-  Load balancing: Although API gateways do more than just load balancing, the ability to balance load by distributing traffic across multiple application instances or microservices is one of their features.
-  Monitoring and observability: API gateways can monitor and log API requests, providing the data necessary to drive observability.
-  Security: API gateways can also enforce security rules. For example, they could block malicious requests to prevent DDoS attacks.
+### On premise API Gateways
+
+an on-premise gateway is one that you install in your own infrastructure. This leaves you in complete control with no 
+calling home and no usage limits.
+
+Control is a huge deal for many organisations. For example, if you operate in a heavily regulated environment, you 
+may need a gateway to be part of your own infrastructure rather than cloud-based. This is where an on-premise solution 
+shines, giving you the API gateway you need while leaving you in total control. 

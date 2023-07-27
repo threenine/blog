@@ -6,8 +6,10 @@ const props = defineProps({
   }
 })
 const {data: posts} = await useAsyncData('posts', () => queryContent('/posts')
-    .where({category: props.category})
+     .where({category: props.category})
     .sort({publishDateTime: -1})
+    .limit(4)
+    .only(['_id','_path', 'title'])
     .find())
 
 </script>
