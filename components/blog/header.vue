@@ -18,7 +18,7 @@ const props = defineProps({
     <img :src="post?.featureImage?.url" class="absolute left-0 top-0 w-full h-full z-0 object-cover" :alt="post?.featureImage?.title" :title="post?.featureImage?.title" />
     <div class="p-4 absolute bottom-0 left-0 z-20">
       <a href="#"
-         class="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">{{post?.category?.title}}</a>
+         class="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">{{post?.category}}</a>
       <h2 class="text-5xl font-semibold text-orange-500 leading-tight">
         {{ post?.title }}
       </h2>

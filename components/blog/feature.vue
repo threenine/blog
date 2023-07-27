@@ -16,7 +16,7 @@ const {data: posts } = await useAsyncData('posts', () => queryContent('/posts').
           <div class="max-w-xl">
             <div class="mt-8 flex items-center gap-x-4 text-xs">
               <time :datetime="post.datetime" class="text-gray-500">{{ post.date }}</time>
-              <a :href ="post._path" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{ post.category.title }}</a>
+              <a :href ="post._path" class="relative z-10 rounded bg-gray-900 px-3 py-1.5 font-medium text-gray-200 hover:bg-gray-100">{{ post.category }}</a>
             </div>
             <div class="group relative">
               <h3 class="mt-3 text-lg font-semibold leading-6 text-orange-600 group-hover:text-orange-400">

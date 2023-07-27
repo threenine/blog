@@ -13,8 +13,8 @@ const {data: posts} = await useAsyncData('posts', () => queryContent('/posts')
 </script>
 
 <template>
-    <div class="overflow-hidden bg-gray-100 shadow-lg">
-      <p class="text-lg text-orange-500 ml-5 text=semibold mb-5">Related Posts</p>
+    <div class="overflow-hidden bg-gray-100 shadow-lg p6">
+      <p class="text-lg text-orange-500 ml-5 text=semibold mb-5 mt-5">Related Posts</p>
       <ul role="list" class="divide-y divide-gray-300 divide-dashed">
         <li v-for="post in posts" :key="post._id" class="px-6 py-4">
           <nuxt-link :to="post._path" class="text-orange-400 text-base">{{post.title}}</nuxt-link>
