@@ -4,6 +4,7 @@ subtitle: using API gateways for communication between clients and applications
 description: Understand the uses of the API gateway pattern and when to use it
   in API Development to provide a single-entry point for groups of
   microservices.
+category: API Development
 summary: Understand the uses of the API gateway pattern and when to use it in
   API Development to provide a single-entry point for groups of microservices.
   dfsdaf
@@ -13,16 +14,15 @@ featureImage:
 author: garywoodfine
 publishDate: 10 June 2023
 publishDateTime: 2023-06-10:17:30
-category: API Development
 ---
-The _API Gateway pattern_ is a service that provides a single-entry point for certain groups of microservices. It's similar to the 
+The *API Gateway pattern* is a service that provides a single-entry point for certain groups of microservices. It's similar to the 
 Facade pattern from object-oriented design, but in this case, it's part of a distributed system. The API Gateway pattern 
 is often conceptually linked to [Backend for Frontend (BFF)](https://threenine.blog/posts/backend-for-frontend-design-pattern) 
 because both patterns share a similar objectives, but they are actually two distinct patterns.
 
 An API gateway sits between a client and a set of backend services. It is an API management service that provides a unified entry point for API calls. 
 
-An _API Gateway_ is a server that is the single entry point into the system. The API Gateway encapsulates the internal 
+An *API Gateway* is a server that is the single entry point into the system. The API Gateway encapsulates the internal 
 system architecture and provides an API that is tailored to each client. It might have other responsibilities such as authentication, monitoring, load balancing, 
 caching, request shaping and management, and static response handling.
 
@@ -39,7 +39,6 @@ each client. For example, some clients may require only a subset of the data tha
 can retrieve and return only that data.
 
  An API gateway manages the traffic between the client and the backend. This means it can handle requests and retrieve data and services, including routing, combining multiple API calls and enforcing policies
-
 
 An API Gateway can offer multiple features. Depending on the product it might offer richer or simpler features, 
 but the following are the most common features:
@@ -65,7 +64,6 @@ but the following are the most common features:
   web‑unfriendly protocols that are used internally.
 * **Security** - The API Gateway can provide an extra layer of security by encapsulating the internal system architecture 
   and shielding the internal services from the public-facing API. It can also provide some [monitoring](https://en.wikipedia.org/wiki/Monitoring_(medicine)) of the incoming requests.
-  
 * ::get-started
   ::
 
@@ -104,8 +102,16 @@ The API Gateway pattern has some disadvantages and must be considered when desig
 
 ### Types of API Gateway
 
-There are two main types of API gateways to choose from: _cloud-based API gateways_ and _on-premise API gateways_. You can also opt for a hybrid solution, where your API gateway provider hosts the API management layer while your edge gateways are deployed on your infrastructure. 
- 
+There are two main types of API gateways to choose from: *cloud-based API gateways* and *on-premise API gateways*. You can also opt for a hybrid solution, where your API gateway provider hosts the API management layer while your edge gateways are deployed on your infrastructure. 
+
 ### Cloud-based API Gateway
 
-A cloud-based API gateway can give you a head-start, as you don’t have to worry about infrastructure headaches
+A cloud-based API gateway can give you a head-start, as you don’t have to worry about infrastructure headaches. Typically these are made available by various Cloud Providers such as Digital Ocean, Netlify, AWS, Azure and GCP.
+
+T﻿hese API Gateways will typically help you to implement and leverage several benefits
+
+* \*API request management:\* By intercepting API requests, API gateways can combine, reformat, or otherwise manipulate both requests and the resulting response. This is useful if clients "say" one thing when calling an API but your microservices need to "hear" something different in order to respond. In this case, the API gateway serves essentially as a translation layer for API calls.
+  Rate limiting: API gateways can "throttle" or rate-limit incoming requests, which means restricting the number of requests that clients can make in a given timeframe. Rate-limiting helps mitigate security abuse. It also protects against the risk that buggy or poorly managed clients will overwhelm applications by making large numbers of repeated, unnecessary requests.
+  Load balancing: Although API gateways do more than just load balancing, the ability to balance load by distributing traffic across multiple application instances or microservices is one of their features.
+  Monitoring and observability: API gateways can monitor and log API requests, providing the data necessary to drive observability.
+  Security: API gateways can also enforce security rules. For example, they could block malicious requests to prevent DDoS attacks.
