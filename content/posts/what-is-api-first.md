@@ -25,6 +25,10 @@ _API First_ is a term and a concept that gained popularity during the brief Digi
 most importantly it is also a term that is often used in conjunction with the term [_API Gateway_](https://threenine.blog/posts/api-gateway-pattern) 
 and _API Management_.  
 
+API-first is a product-centric approach to developing APIs. It views the role of APIs as discrete products, rather 
+than integrations to be subsumed within other systems. The overall goal is to produce a set of modular, interoperable APIs 
+which, when combined, create an API platform that will help to foster and drive further innovation.
+
 The term _API First_ is often used to describe the process of designing and developing an API, however, the truth is 
 API First is more than just developing an API.  It is a business process that is designed to help organisations to think
 and focus on the business value of the API and how it will be used by the consumers of the API.
@@ -123,7 +127,7 @@ organisation achieve its goals.  The next step is to start putting them into pra
 start by creating an API First Strategy, and adopting an API First mindset. There are a few key concepts to consider 
 and always put at the forefront of your mind when adopting an API First approach.
 
-#### 1 - APIs are Products
+#### 1. APIs are Products
 Developing and publishing an API may at first seem easy. However, what is truly difficult is actually preparing an API
 for public consumption. That’s the difference between merely creating APIs and treating them as products. 
 
@@ -139,7 +143,7 @@ design and development cycles that deliver a quality software product. Product d
 specifications, peer programming, technology choices and programming languages support that match the API’s goals, 
 the decision between cloud and on-site, testing, and user research.
 
-#### 2 - Foundational Design
+#### 2. Foundational Design
 
 API-first design requires organisations and developers to think about APIs from the very beginning. The API should be 
 designed and developed first. This means that the API is the first user interface (UI) in the sense that it defines
@@ -152,7 +156,7 @@ requirements of the User Interface.  This is a massive mistake, and often leads 
 API-first development treats APIs as the foundation. Instead of pre-built or opinionated software solutions or experiences, 
 it ensures that all of a platform’s functionality is accessible to you through the APIs.
 
-#### 3 - Team Collaboration
+#### 3. Team Collaboration
 
 API-first development is more than just technical standards. It’s a way of working and collaborating. Rather than just
 being concerned with the specifics of each API, an API-first approach is more about looking at your teams and operations
@@ -164,7 +168,7 @@ developers maybe good at delivering exceptional end-user experiences. It is a co
 creating good engineering (or developer) experience (DX). You need a customer success function to help with 
 implementation and support to field ongoing queries and user feedback.
 
-#### 4 - API Contract
+#### 4. API Contract
 
 Creating open and accessible APIs, companies can reuse, redeploy, and share functionality easily. But that’s easier 
 said than done. One way to promote re-usability is through consistent API description language. Specifically, this 
@@ -184,5 +188,19 @@ you to think about the business value of the API and how it will be used by the 
 Business and technical leaders need to embark on API-first transformations with their eyes wide open. The skills and mindset
 required to succeed are different from those needed for traditional software development. The API-first approach requires
 a different way of thinking about software development and the role of APIs in the business.
+
+#### Corporate cultural change
+
+The key, and often overlooked aspect of the API First approach, is that it often requires a complete cultural change within
+the corporate approach, in that it requires thinking of your IT platforms not as a competitive advantage or transformation
+but as fully fledged additional products and services that your organisation offers.
+
+The concept shares some principles with the API Economy, where APIs unlock new sources of value and more importantly additional revenue.
+It’s a holistic view of APIs as building blocks to create new products, favouring modular, reusable APIs over larger, 
+monolithic APIs. 
+
+::quote
+ APIs are treated as their own product, making them a strategic play, rather than tactical.
+::
 
 
