@@ -120,6 +120,10 @@ a deciding factor, documentation should be seen as an essential part of each API
 API labels can help to document APIs in a more structured way, so that growing and evolving API landscapes are easier 
 to understand and manage.
 
+::quote
+APIs are treated as their own product, making them a strategic play, rather than tactical.
+::
+
 ### Adopting the API First approach
 
 The above core principles will help guide you to start thinking about APIs and how they can be used to help your
@@ -199,8 +203,6 @@ The concept shares some principles with the API Economy, where APIs unlock new s
 It’s a holistic view of APIs as building blocks to create new products, favouring modular, reusable APIs over larger, 
 monolithic APIs. 
 
-::quote
- APIs are treated as their own product, making them a strategic play, rather than tactical.
-::
+
 
 
