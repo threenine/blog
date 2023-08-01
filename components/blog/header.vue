@@ -8,8 +8,9 @@ const props = defineProps({
     type: Object as PropType<PostHeading>,
     required: true
   }
-
 })
+
+let post = props.post as PostHeading;
 </script>
 
 <template>
