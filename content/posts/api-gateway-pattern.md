@@ -9,7 +9,7 @@ summary: Understand the uses of the API gateway pattern and when to use it in
   API Development to provide a single-entry point for groups of microservices.
   dfsdaf
 featureImage:
-  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313878/api-gateway_r7vd0m.jpg
+  url: v1690313878/api-gateway_r7vd0m.jpg
   title: API Gateway Pattern
 author: garywoodfine
 publishDate: 10 June 2023

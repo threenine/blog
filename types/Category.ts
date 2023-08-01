@@ -1,3 +1,3 @@
-export type Category ={
-    title: string
+declare class Category {
+    title: string;
 }

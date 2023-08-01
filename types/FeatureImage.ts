@@ -1,4 +1,4 @@
-export type FeatureImage = {
-    url: string
-    title: string
+declare class FeatureImage  {
+    url: string;
+    title: string;
 }

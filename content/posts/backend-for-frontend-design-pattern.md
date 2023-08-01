@@ -9,7 +9,7 @@ summary: The backend for frontend (BFF) is a software architecture pattern
   relevant for microservices & domain-driven design to simplify the
   communication between the frontend and backend
 featureImage:
-  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313879/back-end-for-front-end_bl2ks3.png
+  url: v1690313879/back-end-for-front-end_bl2ks3.png
   title: Backend for Frontend Design Pattern
 author: garywoodfine
 publishDate: 10 June 2023

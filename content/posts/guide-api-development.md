@@ -8,7 +8,7 @@ summary: threenine.co.uk cover introductory concept, terminologies &
   technologies related to API development in order to gain a basic
   understanding.
 featureImage:
-  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313883/api-development_x0t4xe.jpg
+  url: v1690313883/api-development_x0t4xe.jpg
   title: API Development
 author: garywoodfine
 publishDate: 05 June 2023

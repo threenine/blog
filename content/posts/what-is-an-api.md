@@ -11,7 +11,7 @@ summary: API stands for Application Programming Interface. The application can
   where two applications communicate. One application acts as a client and the
   other acts as a server.
 featureImage:
-  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313881/what-is-an-api_fbom2y.jpg
+  url: v1690313881/what-is-an-api_fbom2y.jpg
   title: What is an API?
 author: garywoodfine
 publishDate: 01 June 2023

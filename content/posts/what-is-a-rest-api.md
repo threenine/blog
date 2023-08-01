@@ -8,7 +8,7 @@ summary: A REST API is an API that conforms to the design principles of the
   REST, or representational state transfer architectural style. For this reason,
   REST APIs are sometimes referred to RESTful APIs.
 featureImage:
-  url: https://res.cloudinary.com/threenine-co-uk/image/upload/v1690313880/what-is-a-rest-api_bfneoa.jpg
+  url: v1690313880/what-is-a-rest-api_bfneoa.jpg
   title: What is an API?
 author: garywoodfine
 publishDate: 05 June 2023

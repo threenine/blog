@@ -1,6 +1,5 @@
 <script setup>
 
-
 const {data: posts } = await useAsyncData('posts', () => queryContent('/posts').sort({publishDateTime: -1}).find());
 
 </script>
@@ -10,7 +9,7 @@ const {data: posts } = await useAsyncData('posts', () => queryContent('/posts').
       <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <article v-for="post in posts" :key="post.id" class="flex flex-col items-start justify-between">
           <div class="relative w-full">
-            <img :src="post.featureImage.url" :alt="post.featureImage.title" class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
+            <nuxt-img :src="post.featureImage.url" :alt="post.featureImage.title" class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
             <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
           </div>
           <div class="max-w-xl">
