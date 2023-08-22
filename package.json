@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.13",
+    "@headlessui/tailwindcss": "^0.2.0",
     "@heroicons/vue": "^2.0.17",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
@@ -22,6 +23,8 @@
     "@nuxt/content": "latest",
     "@nuxt/devtools": "latest",
     "@nuxt/image": "  latest",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.5.0",
     "@nuxt/ui": "latest",
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@types/node": "^18",
