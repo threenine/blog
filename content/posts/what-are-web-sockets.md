@@ -10,7 +10,7 @@ summary: WebSocket is a bidirectional communication protocol based on TCP that
   parties to request data from one another. In contrast, a unidirectional
   protocol like HTTP only allows for the client to request data from the server.
 featureImage:
-  url: v1690313878/api-gateway_r7vd0m.jpg
+  url: /20945800_fwzgcs.jpg
   title: What are Websockets
 author: garywoodfine
 publishDate: 06 September 2023
