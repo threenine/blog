@@ -41,17 +41,16 @@ Websockets, provide a stateful protocol which means the connection between clien
 terminated by either party (client or server). After closing the connection, it is terminated at both ends, regardless
 of which side initiated the closure.
 
-![Websockets](/websockets_o7yfpi.png "Websocket protocol")
+A WebSocket is initiated by making a common HTTP request to that server with an Upgrade header, which the server 
+(after authenticating and authorizing the client) should confirm in its response. After the handshake process, the 
+connection remains established between that physical client-server pair; if at some point the service needs to be 
+redeployed or the load redistributed, its WebSocket connections needs to be re-established.
 
-In the browser, 
-for instance, the same thing was once only possible by polling a server resource, which is a comparatively racy, high-latency, and bandwidth-intensive affair.
-It is a stateful protocol, which means the connection between client and server will keep alive until it is terminated by either party (client or server). After closing the connection the connection is terminated from both ends. 
+![Websockets](https://res.cloudinary.com/threenine-co-uk/image/upload/websockets_o7yfpi.png "Websocket protocol")
 
-### Web Socket Protocol
+In the browser, for instance, a similar approach was once only possible by polling a server resource, which is a 
+comparatively racy, high-latency, and bandwidth-intensive affair.
 
-T﻿he webSocket Protocol enables w  because they allow for bidirectional realtime communication between servers and clients.
-
-WebSockets are available on many platforms, including the most common browsers and mobile devices. They're often applied to solve problems of millisecond-accurate state synchronization and publish-subscribe messaging, both of which leverage Websockets' provision for downstream pushes. A challenge of operating a WebSocket-based system is the maintenance of a stateful gateway on the backend. A WebSocket is erected by making a common HTTP request to that server with an Upgrade header, which the server (after authentating and authorizing the client) should confirm in its response. After this, the connection remains established between that physical client-server pair; if at some point the service needs to be redeployed or the load redistributed, its WebSocket connections needs to be re-established.
-
-and is typically
-denoted as an address starting with `ws://` or `wss://`.
+WebSockets are available on many platforms, including the most common browsers and mobile devices. They're often 
+applied to solve problems of millisecond-accurate state synchronization and publish-subscribe messaging, both of which 
+leverage Websockets' provision for downstream pushes. 
