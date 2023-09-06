@@ -20,7 +20,9 @@ publishDateTime: 2023-09-06:17:30
 
 A WebSocket is bidirectional, a full-duplex protocol that is used in client-server communication, and is typically denoted as an address starting with `ws://` or `wss://`. It is a stateful protocol, which means the connection between client and server will keep alive until it is terminated by either party (client or server). After closing the connection the connection is terminated from both ends. 
 
-WebSockets are extremely useful for developers because they allow for bidirectional realtime communication between servers and clients.
+### Web Socket Protocol
+
+T﻿he webSocket Protocol enables w  because they allow for bidirectional realtime communication between servers and clients.
 
 WebSockets establish TCP-style connections in a browser-compatible fashion using HTTP during initial setup. Messages over websockets can be provided in any protocol, freeing the application from the sometimes unnecessary overhead of HTTP requests and responses (including headers, cookies, and other artifacts). But most critical is the ability to deliver downstream (server-to-client) messages to connected clients. In the browser, for instance, the same thing was once only possible by polling a server resource, which is a comparatively racy, high-latency, and bandwidth-intensive affair.
 
