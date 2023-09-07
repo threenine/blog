@@ -8,7 +8,7 @@
       <div class="flex lg:hidden">
         <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
           <span class="sr-only">Open main menu</span>
-          <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+          <Icon name="heroicons:bars-3" class="h-6 w-6" aria-hidden="true" />
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
@@ -19,13 +19,13 @@
       <div class="fixed inset-0 z-10" />
       <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
+          <a href="https://threenine.co.uk" class="-m-1.5 p-1.5">
             <span class="sr-only">threenine.co.uk</span>
             <img class="h-10 w-auto" src="/threenine.svg" alt="threenine.co.uk" />
           </a>
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
             <span class="sr-only">Close menu</span>
-            <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+            <Icon name="heroicons:x-mark" class="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
         <div class="mt-6 flow-root">
@@ -43,7 +43,7 @@
 <script setup>
 import { ref } from 'vue'
 import { Dialog, DialogPanel } from '@headlessui/vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+
 
 const navigation = [
   { name: 'Contact', href: 'https://threenine.co.uk/contact' },

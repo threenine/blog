@@ -85,3 +85,26 @@ WebSocket connections enable streaming of text strings and binary data via messa
 payload, and data portion. Very little non-payload data gets sent across the existing network connection this way, 
 which helps to reduce latency and overhead, especially when compared to HTTP request and streaming models.
 
+
+### How do WebSockets work ?
+
+WebSockets effectively make use TCP _(Transport Control Protocol)_ to run as a transport layer using the WebSocket Protocol.
+
+In order to establish a connection, the client needs to make an initial HTTP Request, which is essentially a **_WebSocket
+handshake_** . This request makes use of the **Upgrade**  header, which is  used to upgrade an already established 
+client/server connection to a different protocol (over the same transport protocol).
+::notice
+#message
+WebSockets require a uniform resource identifier (URI) to use a `ws:` or `wss:` scheme.
+::
+
+```http request
+GET ws://websocketexample.com:8181/ HTTP/1.1
+Host: localhost:8181
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Key: b6gjhT32u488lpuRwKaOWs==
+```
