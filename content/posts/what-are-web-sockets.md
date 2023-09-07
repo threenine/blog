@@ -146,3 +146,21 @@ ws.send("Hello World!");
 ```
 WebSocket messages can contain any content or data format. In modern applications, the convention is to make of JSON 
 to send structured data within WebSocket messages.
+
+### What makes WebSocket great for Real-Time Communication
+
+WebSockets are generally a great fit for Real-Time communication for a number of reasons:
+
+* Websockets provide real-time updates and open lines of communication.
+* Websockets are HTML5 compliant, and offer backwards compatibility with older html documents. Therefore, they are supported by all modern web browsers—Google Chrome, Brave, Mozilla Firefox, Apple Safari, and more.
+* WebSockets are also compatible across platforms—Android, iOS, web, and desktop apps.
+* A single server can have multiple WebSocket connections open simultaneously, and can even have multiple connections with the same client, which opens the door for scalability.
+* WebSockets can stream through many proxies and firewalls.
+
+
+### Conclusion
+WebSocket enables two-way interactive communication sessions between client and server without having to poll the server 
+for a reply, providing both speed improvements and real-capabilities over other protocols. 
+
+Hopefully this post covered the basics behind WebSockets and how and when to start using them in your applications to
+enable Real-Time communications between client and server applications.
