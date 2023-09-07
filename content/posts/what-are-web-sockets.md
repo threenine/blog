@@ -90,17 +90,20 @@ which helps to reduce latency and overhead, especially when compared to HTTP req
 
 WebSockets effectively make use TCP _(Transport Control Protocol)_ to run as a transport layer using the WebSocket Protocol.
 
+::top-tip
+#message
+WebSockets require a uniform resource identifier (URI) to use a `ws:` for unencrypted connections or `wss:`
+which makes use of encrypted TLS connections.
+::
+
 In order to establish a connection, the client needs to make an initial HTTP Request, which is essentially a **_WebSocket
 handshake_** . This request makes use of the **Upgrade**  header, which is  used to upgrade an already established 
 client/server connection to a different protocol (over the same transport protocol).
-::notice
-#message
-WebSockets require a uniform resource identifier (URI) to use a `ws:` or `wss:` scheme.
-::
+
 
 ```http request
-GET ws://websocketexample.com:8181/ HTTP/1.1
-Host: localhost:8181
+GET /chat HTTP/1.1
+Host: threenine.co.uk
 Connection: Upgrade
 Pragma: no-cache
 Cache-Control: no-cache
@@ -108,3 +111,38 @@ Upgrade: websocket
 Sec-WebSocket-Version: 13
 Sec-WebSocket-Key: b6gjhT32u488lpuRwKaOWs==
 ```
+::note
+#message 
+ There are several features of WebSockets handshake request to take note of:
+ * The `Connection` and `Upgrade` headers in the request and response indicate that this is a WebSocket handshake.
+ * The `Sec-WebSocket-Version` request header specifies the WebSocket protocol version that the client wishes to use. This is typically 13. 
+ * The `Sec-WebSocket-Key` request header contains a Base64-encoded random value, which should be randomly generated in each handshake request.
+ * The `Sec-WebSocket-Accept` response header contains a hash of the value submitted in the Sec-WebSocket-Key request header, 
+concatenated with a specific string defined in the protocol specification. This is done to prevent misleading responses resulting from 
+misconfigured servers or caching proxies.
+::
+
+The server will determine to upgrade the connection and will respond with a `101 Switching Protocols` response
+
+```http request
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: b6gjhT32u488lpuRwKaOWs==
+```
+
+All this processing is hugely simplified by making use of various libraries available. For Instance in JavaScript creating
+a new WebSocket is as easy as:
+
+```javascript
+var ws = new WebSocket("wss://threenine.co.uk/feed");
+```
+Once the WebSocket has been established messages can be sent , messages can be sent asynchronously in either direction by the client or server.
+
+A simple message could be sent from the browser using client-side JavaScript like the following:
+
+```javascript
+ws.send("Hello World!");
+```
+WebSocket messages can contain any content or data format. In modern applications, the convention is to make of JSON 
+to send structured data within WebSocket messages.
