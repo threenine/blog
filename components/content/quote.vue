@@ -8,6 +8,7 @@
         <div class="text-3xl text-orange-500 text-left leading-tight h-3">“</div>
         <p class="text-2xl text-gray-700 text-center px-5"><slot/></p>
         <div class="text-3xl text-orange-500 text-right leading-tight h-3 -mt-3">”</div>
+        <p class="text-xs"><slot name="citation"/></p>
       </div>
 
 

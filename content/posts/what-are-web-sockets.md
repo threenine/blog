@@ -41,6 +41,20 @@ Websockets, provide a stateful protocol which means the connection between clien
 terminated by either party (client or server). After closing the connection, it is terminated at both ends, regardless
 of which side initiated the closure.
 
+::quote
+ The WebSocket Protocol enables two-way communication between a client
+ running untrusted code in a controlled environment to a remote host
+ that has opted-in to communications from that code.  The security
+ model used for this is the origin-based security model commonly used
+ by web browsers.  The protocol consists of an opening handshake
+ followed by basic message framing, layered over TCP.  The goal of
+ this technology is to provide a mechanism for browser-based
+ applications that need two-way communication with servers that does
+ not rely on opening multiple HTTP connections.
+#citation
+ [The WebSocket Protocol](https://datatracker.ietf.org/doc/html/rfc6455)
+::
+
 A WebSocket is initiated by making a common HTTP request to that server with an Upgrade header, which the server 
 (after authenticating and authorizing the client) should confirm in its response. After the handshake process, the 
 connection remains established between that physical client-server pair; if at some point the service needs to be 
