@@ -93,6 +93,11 @@ const navigation = {
       href: 'https://www.youtube.com/@ThreenineCoUk',
       icon: 'ion:social-youtube-outline',
     },
+    {
+      name: 'rss',
+      href: 'https://threenine.blog/rss',
+      icon: 'jam:rss-feed',
+    },
   ],
 }
 </script>
