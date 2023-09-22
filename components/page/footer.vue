@@ -69,7 +69,7 @@ const navigation = {
     { name: 'API Development', href: 'https://threenine.co.uk/services/api-development' },
   ],
   company: [
-    { name: 'About', href: 'https://threenine.co.uk/about' },
+    { name: 'About', href: 'https://threenine.co.uk/company/about' },
     { name: 'Blog', href: 'https://threenine.blog' },
   ],
   legal: [
