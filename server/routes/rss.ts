@@ -1,9 +1,12 @@
 import { serverQueryContent } from '#content/server';
+// @ts-ignore
 import RSS from 'rss';
 
 export default defineEventHandler(async (event) => {
     const feed = new RSS({
         title: 'threenine',
+        description: 'UK Based Software Development consultancy specialising in Back-end development with Cloud Native platforms ',
+        webMaster: 'threenine.co.uk',
         site_url: 'https://threenine.blog',
         feed_url: `https://threenine.blog/rss`,
     });
@@ -13,7 +16,7 @@ export default defineEventHandler(async (event) => {
         .where({ _partial: false })
         .find();
 
-    const blogPosts = docs.filter((doc) => doc?._path?.includes('/'));
+    const blogPosts = docs.filter((doc) => doc?._path?.includes('/posts'));
     for (const doc of blogPosts) {
         feed.item({
             title: doc.title ?? '-',
@@ -24,6 +27,7 @@ export default defineEventHandler(async (event) => {
     }
 
     const feedString = feed.xml({ indent: true });
-    event.res.setHeader('content-type', 'text/xml');
-    event.res.end(feedString);
+    event.node.res
+    event.node.res.setHeader('content-type', 'text/xml');
+    event.node.res.end(feedString);
 });
