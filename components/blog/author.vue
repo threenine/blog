@@ -5,8 +5,9 @@ const props = defineProps({
     required: true
   }
 })
+let username = props.username
 const {data: author} = await useAsyncData('author', () => queryContent('/authors')
-    .where({username: props.username})
+    .where({username: username})
     .findOne())
 
 </script>

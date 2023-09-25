@@ -7,6 +7,10 @@ const {data: post} = await useAsyncData('post', () => queryContent('/posts')
     .where({_path: route.path})
     .findOne())
 
+
+
+console.log(route.path)
+
 useSeoMeta({
   title:  post.value?.title,
   description: post.value?.description,
@@ -19,15 +23,16 @@ useSeoMeta({
   twitterTitle: () => post.value?.title,
 })
 
-let username = post.value?.author;
-let category = post.value?.category.title;
+
+let username = post.value?.author as String;
+let category = post.value?.category.title as String;
 
 </script>
 
 <template>
   <nuxt-layout name="post">
     <template #header>
-      <blog-header :post="post" />
+      <blog-header :post="post"/>
     </template>
     <template #mainContent >
 

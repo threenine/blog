@@ -1,5 +1,5 @@
 
-import {Category} from "~/types/Category";
+
 
 declare class Post  {
     title: string;

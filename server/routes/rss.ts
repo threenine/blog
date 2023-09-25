@@ -3,13 +3,15 @@ import { serverQueryContent } from '#content/server';
 import RSS from 'rss';
 
 export default defineEventHandler(async (event) => {
+    const config = useAppConfig()
+
     const feed = new RSS({
-        title: 'threenine',
-        description: 'UK Based Software Development consultancy specialising in Back-end development with Cloud Native platforms ',
-        webMaster: 'Gary Woodfine',
-        copyright: ` ${new Date().getFullYear()} threenine.co.uk ` ,
-        site_url: 'https://threenine.blog',
-        feed_url: `https://threenine.blog/rss`,
+        title: config.threenine.name,
+        description: config.threenine.description,
+        webMaster: config.threenine.webMaster,
+        copyright: ` ${new Date().getFullYear()} ${ config.threenine.name } ` ,
+        site_url: `${config.threenine.site_url}`,
+        feed_url: `${config.threenine.site_url}/rss`,
         language: 'en',
         categories: ['API Development', 'Software Consultancy']
     });
@@ -23,7 +25,7 @@ export default defineEventHandler(async (event) => {
     for (const doc of blogPosts) {
         feed.item({
             title: doc.title ?? '-',
-            url: `https://threenine.blog${doc._path}`,
+            url: `${config.threenine.site_url}${doc._path}`,
             date: doc.date,
             description: doc.description,
         });
