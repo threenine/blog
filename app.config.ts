@@ -6,7 +6,8 @@ export default defineAppConfig({
         description: 'UK Based Software Development consultancy specialising in Back-end development with Cloud Native platforms',
         home_url: 'https://threenine.co.uk',
         site_url: 'https://threenine.blog',
-        webmaster: 'Gary Woodfine'
+        webmaster: 'Gary Woodfine',
+        categories: ['Software Development', 'API Development', 'Software Consultancy', 'API']
     }
 
 });

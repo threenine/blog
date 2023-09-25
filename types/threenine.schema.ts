@@ -5,11 +5,12 @@ export interface ThreenineSchema {
     home_url: string
     site_url: string
     webmaster: string
-    socials :  Array<SocialLink>
+    socials :  Array<Link>
+    categories: Array<string>
 
 }
 
-export interface SocialLink {
+export interface Link {
     name: string
     url: string
     icon: string
