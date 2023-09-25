@@ -36,5 +36,4 @@ export default defineEventHandler(async (event) => {
     event.node.res.setHeader('content-type', 'text/xml');
     event.node.res.end(feedString);
 
-
 });

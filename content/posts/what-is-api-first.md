@@ -7,7 +7,7 @@ description: What is API First? Discover how developing your API first will
 summary: What is API First? Discover how developing your API first will enable
   developing better and more products of your organization.
 featureImage:
-  url: v1690313893/routes-first_aeykly.jpg
+  url: v1690313893/api-first_aeykly.jpg
   title: What is API First?
 author: garywoodfine
 publishDate: 13 July 2023
