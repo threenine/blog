@@ -138,7 +138,7 @@ misconfigured servers or caching proxies.
 
 The server will determine to upgrade the connection and will respond with a `101 Switching Protocols` response
 
-```http request
+```http
 HTTP/1.1 101 Switching Protocols
 Upgrade: websocket
 Connection: Upgrade
