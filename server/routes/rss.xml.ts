@@ -44,9 +44,9 @@ export default defineEventHandler(async (event) => {
 
         for( let i in config.threenine.categories)
         {
-            cats+= config.threenine.categories[i] + ','
+            cats+= config.threenine.categories[i] + ', '
         }
-        return trimTrailingChars(cats, ",")
+        return trimTrailingChars(cats, ", ")
     }
     function trimTrailingChars(s:string, charToTrim:string) {
         let regExp = new RegExp(charToTrim + "+$");
