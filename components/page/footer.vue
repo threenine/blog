@@ -95,7 +95,7 @@ const navigation = {
     },
     {
       name: 'rss',
-      href: 'https://threenine.blog/rss',
+      href: 'https://threenine.blog/rss.xml',
       icon: 'jam:rss-feed',
     },
   ],
