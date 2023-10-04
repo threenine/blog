@@ -8,7 +8,7 @@
 useHead({
   title: 'threenine',
   meta: [
-    {name: 'og:image', content: 'https://threeine.co.uk/logo.svh'},
+    {name: 'og:image', content: 'https://threeine.co.uk/logo.svg'},
     {name: 'og:url', content: 'https://threenine.co.uk'},
     {name: 'twitter:card', content: 'summary_large_image'},
     {name: 'twitter:site', content: '@threenine39'},
