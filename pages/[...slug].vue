@@ -9,7 +9,15 @@ const {data: post} = await useAsyncData('post', () => queryContent('/posts')
 
 
 
-console.log(route.path)
+useHead({
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://threenine.blog' + route.path
+        }
+      ]
+    },
+)
 
 useSeoMeta({
   title:  post.value?.title,
@@ -24,8 +32,8 @@ useSeoMeta({
 })
 
 
-let username = post.value?.author as String;
-let category = post.value?.category.title as String;
+let username = post?.value?.author as String;
+let category = post?.value?.category.title as String;
 
 </script>
 
